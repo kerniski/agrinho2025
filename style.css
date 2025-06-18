@@ -1,99 +1,64 @@
-/* Reset de estilos padrões */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Estilos do body e fonte */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
+  font-family: Arial, sans-serif;
+  background-color: #f0fff0;
+  margin: 0;
+  padding: 0;
+  color: #2e5d34;
 }
 
-/* Cabeçalho */
 header {
-    background-color: #004d00;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
+  background-color: #8bc34a;
+  color: white;
+  text-align: center;
+  padding: 2rem;
 }
 
-header nav ul {
-    list-style: none;
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
 }
 
-header nav ul li {
-    display: inline;
-    margin: 0 15px;
+main {
+  padding: 2rem;
 }
 
-header nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-/* Estilos das seções */
 section {
-    padding: 20px;
-    margin: 20px 0;
-    background-color: white;
-    border-radius: 8px;
+  margin-bottom: 2rem;
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-section h2 {
-    margin-bottom: 15px;
+form input[type="text"],
+form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
-.noticia {
-    margin-bottom: 15px;
+form input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1rem;
 }
 
-.noticia h3 {
-    color: #004d00;
+form input[type="submit"]:hover {
+  background-color: #388e3c;
 }
 
-/* Formulário */
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-form label {
-    margin-top: 10px;
-}
-
-form input, form textarea {
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-form button {
-    margin-top: 15px;
-    padding: 10px;
-    background-color: #004d00;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-form button:hover {
-    background-color: #006600;
-}
-
-/* Rodapé */
 footer {
-    text-align: center;
-    background-color: #004d00;
-    color: white;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+  background-color: #8bc34a;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
