@@ -76,14 +76,3 @@ a button {
 a button:hover {
   background-color: #3c4ac9;
 }
-
-figure {
-  display: inline-block;
-  text-align: center;
-  margin: 10px;
-}
-figcaption {
-  margin-top: 5px;
-  font-size: 0.9rem;
-  color: #555;
-}
