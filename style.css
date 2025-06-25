@@ -50,11 +50,11 @@ form input[type="submit"] {
 }
 
 form input[type="submit"]:hover {
-  background-color: #388e3c;
+  background-color: #4a56c3;
 }
 
 footer {
-  background-color: #8bc34a;
+  background-color: #4a56c3;
   color: white;
   text-align: center;
   padding: 1rem;
@@ -64,7 +64,7 @@ footer {
 }
 
 a button {
-  background-color: #4caf50;
+  background-color: #4a56c3;
   color: white;
   padding: 0.8rem 1.5rem;
   border: none;
@@ -74,5 +74,5 @@ a button {
 }
 
 a button:hover {
-  background-color: #388e3c;
+  background-color: #4a56c3;
 }
