@@ -77,11 +77,18 @@ a button:hover {
   background-color: #3c4ac9;
 }
 
-section {
-  margin-top: 100px; /* Ajuste conforme necessário */
-  margin-bottom: 2rem;
-  background-color: #ffffff;
-  padding: 1.5rem;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+header {
+  background-color: #4360d6;
+  color: #ffffff;
+  text-align: center;
+  padding: 2rem;
+  position: fixed;  /* Fixa o cabeçalho no topo */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;  /* Garante que o cabeçalho fique acima de outros elementos */
+}
+
+main {
+  padding-top: 120px;  /* Dá espaço suficiente para o cabeçalho fixo */
 }
