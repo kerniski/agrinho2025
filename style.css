@@ -76,19 +76,3 @@ a button {
 a button:hover {
   background-color: #3c4ac9;
 }
-
-header {
-  background-color: #4360d6;
-  color: #ffffff;
-  text-align: center;
-  padding: 2rem;
-  position: fixed;  /* Fixa o cabeçalho no topo */
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 10;  /* Garante que o cabeçalho fique acima de outros elementos */
-}
-
-main {
-  padding-top: 120px;  /* Dá espaço suficiente para o cabeçalho fixo */
-}
