@@ -76,3 +76,12 @@ a button {
 a button:hover {
   background-color: #3c4ac9;
 }
+
+section {
+  margin-top: 100px; /* Ajuste conforme necessário */
+  margin-bottom: 2rem;
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
